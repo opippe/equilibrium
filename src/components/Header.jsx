@@ -11,7 +11,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import LocalDiningIcon from '@mui/icons-material/LocalDining';
 
 const pages = [
-    <Link style={{ textDecoration: 'none', color: 'white', display: 'flex', alignItems: 'center' }} to="/">
+    <Link style={{ textDecoration: 'none', color: 'white', display: 'flex', alignItems: 'center' }} to="/equilibrium">
         <HomeIcon fontSize='1.5rem' sx={{ marginRight: '.15rem' }}/>
         Home
     </Link>, 

@@ -1,0 +1,43 @@
+.progress-bar {
+    transform: rotate(-90deg); /* Rotate the progress bar to start from the top */
+  }
+  
+  .weekly-calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .days-of-week {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    width: 2.75rem;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 2px;
+  }
+  
+  .selected {
+    border-color: red;
+    color: red;
+  }
+  
+  .day-of-month {
+    font-weight: bold;
+  }
+  
+  .day-of-week {
+    margin-top: 0px;
+    text-transform: capitalize;
+  }

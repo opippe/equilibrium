@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Card, Stack, Typography, Chip } from '@mui/material';
+import { Box, Card, Stack, Typography } from '@mui/material';
 
 import WeeklyCalendar from '../components/WeeklyCalendar';
 import CircularProgressBar from '../components/CircularProgressBar';

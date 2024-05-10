@@ -6,10 +6,6 @@ const API_KEY_WGER = 'a0fce4e93c0f20412992f6a450fbe5d15f7ab44c';
 const BASE_URL_EDAMAM = 'https://api.edamam.com/api/food-database/v2/parser';
 const BASE_URL_WGER = 'https://wger.de/api/v2';
 
-const BASE_URL = 'https://wger.de/api/v2';
-const USERNAME = 'felipeguimaraes47@gmail.com';
-const PASSWORD = 'fggo1010';
-
 const APP_ID_EDAMAM = 'c534e56a';
 
 export const searchFood = async (query) => {
